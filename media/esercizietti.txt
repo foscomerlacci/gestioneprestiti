@@ -1,0 +1,27 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!-- 
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+<header id="header">
+    <nav id="nav-bar">
+    <a href="#header" class="nav-link">link1</a>
+    <a href="#header" class="nav-link">link2</a>
+    <a href="#header" class="nav-link">link3</a>
+  </nav>
+  <img src="http://th.motoblog.it/ZJpXA4RM4y17qPOYQHbAbkletBQ=/fit-in/655xorig/http%3A%2F%2Fmedia.motoblog.it%2Fj%2Fjoh%2Fjohammer-j1-200%2Fjohammer-moto-elettrica-4.jpg" id="header-img">  
+
+  <video id="video">
+    <source src="https://youtu.be/W4nrtCgdsUM">
+  </video>
+  <form id="form" action="https://www.freecodecamp.com/email-submit">
+    <input id="email" type="email" placeholder="inserire email" >
+    <input id="submit" type="submit" value="spedisci">
+  </form>
+</header>
