@@ -17,6 +17,13 @@ class Prestiti_AllegatoAdmin(admin.TabularInline):
     # list_display = ['descrizione']
     readonly_fields = ['inserito_il']
     list_display = ['allegato', 'descrizione', 'inserito_il']
+    classes = ['collapse']
+    # fieldsets = (
+    #     ('allegati',{
+    #         'classes': ('collapse',),
+    #         'fields': ('allegati',),
+    #     }),
+    # )
 
 
 class PrestitoAdmin(admin.ModelAdmin):
